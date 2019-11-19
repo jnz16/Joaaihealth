@@ -1,0 +1,599 @@
+/*------------------------------------
+              FONTS
+font-family: 'Roboto', sans-serif; - titles
+font-family: 'Lato', sans-serif; - body
+              COLORS
+purple color: #9f5cdb
+--------------------------------------*/
+
+/*------------------------------------
+              GENERAL CSS
+ -------------------------------------*/
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.padding {
+  padding: 10px 0px;
+  padding-bottom: 20px;
+}
+
+/*------------------------------------
+              HOME SECTION
+ -------------------------------------*/
+
+#home {
+  height: 100%;
+}
+
+#home-heading h1 {
+  font-size: 400%;
+}
+
+#home-heading p {
+  font-size: 130%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image:
+	  linear-gradient(to right bottom,
+     rgba(144, 114, 210, 0.7),
+     rgba(245, 235, 255, 0.7)),
+    url("../img/cup.jpg");
+  /*opacity: 0.8;
+  filter: alpha(opacity=80);
+  144, 114, 210
+  157, 146, 236,*/
+  background-size: cover;
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  /*text-align: center;*/
+}
+
+#home-heading {
+  color: #fff;
+  margin: 20px 0 20px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*------------------------------------
+              MAIN SECTION
+ -------------------------------------*/
+ #main {
+  height: 100%;
+}
+
+ #main-cover {
+  height: 100%;
+  background-size: cover;
+}
+
+/*------------------------------------
+              SYMPTOMS SECTION
+ -------------------------------------*/
+ #symptoms {
+  height: 100%;
+  background: rgba(233, 30, 99, 0.3);
+}
+
+
+/*------------------------------------
+        PARALLAX EFFECT GRAL
+ -------------------------------------*/
+  .bg-parallax {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+/*------------------------------------
+                  BUTTONS
+-------------------------------------*/
+  .btn-general {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    text-transform: uppercase;
+  }
+
+  .btn-white {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .btn-white:hover,
+  .btn-white:focus {
+    background-color: #b96bf4;
+    border-color: #b96bf4;
+    color: #fff;
+    /*opacity: 0.7;*/
+  }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 65px;
+  right: 20px;
+  display: none;
+}
+
+#myBtn {
+  background: transparent;
+}
+
+/*------------------------------------
+                DOWN ARROW
+-------------------------------------*/
+  .down-arr {
+    font-size: 2rem;
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+    color: #fff;
+  }
+
+  .down-arr:hover {
+    color: #fff;
+  }
+
+/*------------------------------------
+              HOME ANIMATION
+-------------------------------------*/
+
+#home-cover, #home-heading, #home-btn {
+  animation-duration: .5s;
+}
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: .8s;
+}
+
+
+/*------------------------------------
+                 NAVBAR
+-------------------------------------*/
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #ee16bf;
+}
+
+.nav .navbar-nav .navbar-right li a:hover {
+  color: white;
+  background-color: #ee16bf;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ee16bf;
+}
+
+.fa-search {
+  color: #f46bd6;
+  font-size: 10px;
+}
+.navbar-btn {
+  background: #fff;
+  padding-left: 0;
+}
+/*------------------------------------
+              NAVBAR FIXED
+ -------------------------------------*/
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+
+  /* MODAL */
+  #myModal {
+    background: transparent;
+  }
+
+/*------------------------------------
+                GENERAL CONTENT
+-------------------------------------*/
+
+  .content-box {
+    padding: 60px 0 40px 0;
+  }
+
+  .content-title {
+    margin: 0 0 60px 0;
+  }
+
+  .content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #ee16bf;
+    margin: 0px auto 0 auto;
+  }
+
+a {
+    color: #ee16bf;
+  }
+  /*------------------------------------
+                QUOTE
+  -------------------------------------*/
+
+  #quotebg {
+    height: 100%;
+    width: 100%;
+    padding: 120px;
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/period-ain.jpg");
+      background-size: cover;
+    }
+
+  #quotebg h1{
+    color: white;
+  }
+
+/*------------------------------------
+                FOOTER
+-------------------------------------*/
+
+  footer {
+    width: 100%;
+    height: 100%;
+    background:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7));
+    /*padding: 5% 5% 10% 5%;*/
+    color: #FFF;
+    margin: 0;
+  }
+
+  footer p {
+    color: gray;
+  }
+
+  .pfooter {
+    font-size: 5px;
+  }
+
+  .fab,
+  .far,
+  .fas {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+  }
+  .fab:hover,
+  .far:hover,
+  .fas:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .icon {
+    max-width: 300px;
+    padding-top: 5%;
+  }
+  .cfg-logo {
+    max-width: 130px;
+  }
+
+  .pfooter {
+    max-width: 100px;
+    font-size: 16px;
+    padding: 2px;
+  }
+
+/*------------------------------------
+                FOOTER ICONS
+-------------------------------------*/
+  .purple {
+    color: #9f5cdb;
+  }
+
+  .fab,
+  .far,
+  .fas {
+    color: #9f5cdb;
+  }
+
+  abbr {
+      position: relative;
+  }
+
+  /*------------------------------------
+          NEWSLETTER BUTTON
+  -------------------------------------*/
+
+  /* Button used to open the contact form - fixed at the bottom of the page */
+  .open-button {
+    background-color: #9f5cdb;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  /*------------------------------------
+          ABOUT FILE STYLES
+  --------------------------------------*/
+  #about-heading h1 {
+    font-size: 400%;
+  }
+
+  #about-heading p {
+    font-size: 150%;
+  }
+
+  #about {
+    height: 100%;
+  }
+
+  #about-cover {
+    height: 100%;
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/girls.jpg");
+    /*opacity: 0.8;
+    filter: alpha(opacity=80);
+    144, 114, 210
+    157, 146, 236,*/
+    background-size: cover;
+
+  }
+
+  #about-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+
+  #about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*text-align: center;*/
+  }
+
+  #about-heading {
+    color: #fff;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /*------------------------------------
+        ANIMATION FOR HEADER
+  --------------------------------------*/
+  #about-cover, #about-heading {
+    animation-duration: .5s;
+  }
+  #about-cover {
+    animation-delay: .1s;
+  }
+
+  #about-heading {
+    animation-delay: .5s;
+  }
+
+  #about-renata .fab,
+  #about-joanna .fab {
+    display: inline-block;
+  }
+
+  #about-renata .fab:hover,
+  #about-joanna .fab:hover {
+    color: #f781f9;
+  }
+
+  #about-renata img {
+    max-width: 300px;
+    margin-top: 80px;
+  }
+
+  #about-joanna img {
+    max-width: 300px;
+  }
+
+  /*------------------------------------
+          PARTNERS HOME
+  --------------------------------------*/
+  #projects-cover {
+    height: 100%;
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(228, 80, 215, 0.7),
+       rgba(241, 169, 235, 0.7)),
+      url("../img/success_job_hunt2.png");
+    /*opacity: 0.8;
+    filter: alpha(opacity=80);
+    144, 114, 210
+    157, 146, 236,*/
+    background-size: cover;
+
+  }
+
+  /*------------------------------------
+              FAQs HOME
+  --------------------------------------*/
+  #faqs-cover {
+    height: 100%;
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/period-products.jpg");
+    /*opacity: 0.8;
+    filter: alpha(opacity=80);
+    144, 114, 210
+    157, 146, 236,*/
+    background-size: cover;
+  }
+
+
+  /*------------------------------------
+                STATS
+  -------------------------------------*/
+
+#stats-cover {
+background-image:
+linear-gradient(to right bottom,
+  rgba(245, 181, 240, 0.7),
+  rgba(241, 169, 235, 0.2)),
+;
+background-size: cover;
+}
+
+#stats {
+  color: #fff;
+}
+
+#stats .fas {
+  font-size: 50px;
+  padding: 10px;
+}
+  /*------------------------------------
+          PROJECTS CAROUSEL
+  -------------------------------------*/
+
+  .mySlides {display: none;}
+  .mySlides img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #9f5cdb;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #9f5cdb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
