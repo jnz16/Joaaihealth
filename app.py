@@ -17,7 +17,8 @@ def other_page():
 
 @app.route("/userreport", methods=["GET", "POST"])
 def user_name():
-    form_data = request.formname=form_data["name"]
+    form_data = request.form
+    name=form_data["name"]
     symptoms = form_data.getlist("checkbox")
     print(symptoms)
 
