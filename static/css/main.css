@@ -69,6 +69,13 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+#about-heading {
+  color: #fff;
+  margin: 20px 0 20px 0;
+  text-transform: none;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 
 /*------------------------------------
@@ -451,6 +458,7 @@ a {
 
 
 #about p{
+  font-size: 100;
   text-transform: none;
 }
 /*------------------------------------
@@ -753,16 +761,6 @@ a {
 .gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
 .gradient-button-4:hover { background-position: right center; }
 
-
-#lala {
-  height: 10%;
-  background-image:
-      linear-gradient(to right bottom,
-     rgba(144, 114, 210, 0.7),
-     rgba(245, 235, 255, 0.7)),
-    url("../img/red.png");
-  background-size: cover;
-}
 
 #Ibuprefen-cover {
   height: 100%;
