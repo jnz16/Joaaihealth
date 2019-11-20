@@ -11,10 +11,6 @@ app= Flask("BreastApp")
 def home_page():
     return render_template("index.html")
 
-@app.route("/otherpage")
-def other_page():
-    return render_template("other_page.html")
-
 @app.route("/userreport", methods=["GET", "POST"])
 def user_name():
     form_data = request.form
