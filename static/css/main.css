@@ -98,7 +98,7 @@ html, body {
   144, 114, 210
   157, 146, 236,*/
   background-size: cover;
-  color:#fff;
+  color:black;
   font-family: 'Roboto', sans-serif;
 }
 /*------------------------------------
@@ -296,11 +296,10 @@ a {
      rgba(245, 235, 255, 0.7)),
     url("../img/red.png");
     color: #FFF;
-    margin: 0;
   }
 
   footer p {
-    color: gray;
+    color: #FFF;
   }
 
   .pfooter {
@@ -338,7 +337,7 @@ a {
                 FOOTER ICONS
 -------------------------------------*/
   .purple {
-    color: #9f5cdb;
+    color: #fff;
   }
 
   .fab,
