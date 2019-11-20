@@ -309,7 +309,7 @@ a {
   .fas {
     padding: 15px;
     font-size: 25px;
-    color: #FFF;
+    color: rgb(182, 65, 206);
   }
   .fab:hover,
   .far:hover,
@@ -461,6 +461,57 @@ a {
   }
 
   #about-heading {
+    color: #fff;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+/*------------------------------------
+          FAQs
+  --------------------------------------*/
+
+#faq-heading h1 {
+    font-size: 400%;
+  }
+
+  #faq-heading p {
+    font-size: 150%;
+  }
+
+  #faq {
+    height: 100%;
+  }
+
+  #faq-cover {
+    height: 100%;
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/red.png");
+    /*opacity: 0.8;
+    filter: alpha(opacity=80);
+    144, 114, 210
+    157, 146, 236,*/
+    background-size: cover;
+  }
+
+  #faq-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+
+  #faq-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*text-align: center;*/
+  }
+
+  #faq-heading {
     color: #fff;
     margin: 20px 0 20px 0;
     text-transform: uppercase;
