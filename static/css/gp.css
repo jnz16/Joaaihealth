@@ -14,8 +14,8 @@
     font-size: 130%;
   }
   
-  #gp {
-    height: 50%;
+  #gp-cover {
+    height: 100%;
     background-image:
         linear-gradient(to right bottom,
        rgba(144, 114, 210, 0.7),
@@ -30,6 +30,7 @@
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
   }
+
   /*------------------------------------
                  NAVBAR
 -------------------------------------*/
@@ -77,3 +78,204 @@
     #myModal {
       background: transparent;
     }
+
+    .content-title-underline {
+        width: 30px;
+        height: 3px;
+        background-color: #ee16bf;
+        margin: 0px auto 0 auto;
+      }
+
+    
+  /*------------------------------------
+                 BUTTONS!
+-------------------------------------*/
+
+    .gradient-button {
+        margin: 10px;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 20px;
+        padding: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: #FFF;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        width: 200px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 25px;
+    }
+    .gradient-button:hover{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: 8px 10px 12px;
+    }
+    .gradient-button-1 {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)}
+    .gradient-button-1:hover { background-position: right center; }
+    
+    .gradient-button-2 {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
+    .gradient-button-2:hover { background-position: right center; }
+    
+    .gradient-button-3 {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
+    .gradient-button-3:hover { background-position: right center; }
+    
+    .gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+    .gradient-button-4:hover { background-position: right center; }
+
+
+    footer {
+        width: 100%;
+        height: 100%;
+        background-image:
+          linear-gradient(to right bottom,
+         rgba(144, 114, 210, 0.7),
+         rgba(245, 235, 255, 0.7)),
+        url("../img/red.png");
+        color: #FFF;
+        background-size: cover;
+      }
+    
+      footer p {
+        color: #FFF;
+      }
+    
+      .pfooter {
+        font-size: 5px;
+      }
+    
+      .fab,
+      .far,
+      .fas {
+        padding: 15px;
+        font-size: 25px;
+        color: #FFF;
+      }
+      .fab:hover,
+      .far:hover,
+      .fas:hover {
+        color: #FFF;
+        text-decoration: none;
+      }
+      .icon {
+        max-width: 300px;
+        padding-top: 5%;
+      }
+      .cfg-logo {
+        max-width: 130px;
+      }
+    
+      .pfooter {
+        max-width: 100px;
+        font-size: 16px;
+        padding: 2px;
+      }
+    
+    /*------------------------------------
+                    FOOTER ICONS
+    -------------------------------------*/
+      .purple {
+        color: #fff;
+      }
+    
+      .fab,
+      .far,
+      .fas {
+        color: #fff;
+      }
+    
+      abbr {
+          position: relative;
+      }
+    
+      /*------------------------------------
+              NEWSLETTER BUTTON
+      -------------------------------------*/
+    
+      /* Button used to open the contact form - fixed at the bottom of the page */
+      .open-button {
+        background-color: black;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        bottom: 23px;
+        right: 28px;
+        width: 280px;
+      }
+    
+      /* The popup form - hidden by default */
+      .form-popup {
+        display: none;
+        position: fixed;
+        bottom: 50px;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+      }
+    
+      /* Add styles to the form container */
+      .form-container {
+        max-width: 300px;
+        padding: 10px;
+        background-color: white;
+      }
+    
+      /* Full-width input fields */
+      .form-container input[type=text], .form-container input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+    
+      /* When the inputs get focus, do something */
+      .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+    
+      /* Set a style for the submit/login button */
+      .form-container .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom:10px;
+        opacity: 0.8;
+      }
+    
+      /* Add a red background color to the cancel button */
+      .form-container .cancel {
+        background-color: red;
+      }
+    
+      /* Add some hover effects to buttons */
+      .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+      }
+
+      
+#Ibuprefen-cover {
+    height: 100%;
+    background-image:
+        linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/red.png");
+    background-size: cover;
+
+}
+
+#Ibuprofen p {
+    color: black;
+    font-size: 100;
+    text-transform: none;
+}
