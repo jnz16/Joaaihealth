@@ -1,0 +1,79 @@
+/*------------------------------------
+              GENERAL CSS
+ -------------------------------------*/
+ html, body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+  }
+  
+  #gp-heading h1 {
+    font-size: 200%;
+  }
+  
+  #gp-heading p {
+    font-size: 130%;
+  }
+  
+  #gp {
+    height: 50%;
+    background-image:
+        linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/red.png");
+    background-size: cover;
+  }
+  
+  #gp-heading {
+    color: #fff;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+  /*------------------------------------
+                 NAVBAR
+-------------------------------------*/
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #ee16bf;
+  }
+  
+  .nav .navbar-nav .navbar-right li a:hover {
+    color: white;
+    background-color: #ee16bf;
+  }
+  
+  .nav.navbar-nav.navbar-right li a {
+      color: #ee16bf;
+  }
+  
+  .fa-search {
+    color: #ee16bf;;
+    font-size: 10px;
+  }
+  .navbar-btn {
+    background: #fff;
+    padding-left: 0;
+  }
+  /*------------------------------------
+                NAVBAR FIXED
+   -------------------------------------*/
+  
+  .affix {
+        top: 0;
+        width: 100%;
+        z-index: 9999 !important;
+    }
+  
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+  
+  
+    /* MODAL */
+    #myModal {
+      background: transparent;
+    }
