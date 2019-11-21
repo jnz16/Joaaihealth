@@ -107,6 +107,19 @@ html, body {
   background-size: cover;
 }
 
+#symptoms {
+  height: 100%;
+  background-image:
+	  linear-gradient(to right bottom,
+     rgba(144, 114, 210, 0.7),
+     rgba(245, 235, 255, 0.7)),
+    url("../img/red.png");
+  /*opacity: 0.8;
+  filter: alpha(opacity=80);
+  144, 114, 210
+  157, 146, 236,*/
+  background-size: cover;
+}
 /*------------------------------------
         PARALLAX EFFECT GRAL
  -------------------------------------*/

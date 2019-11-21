@@ -23,4 +23,16 @@ def user_name():
     if ("dimpling" in symptoms) or ("pain" in symptoms):
         return render_template("wait48h.html", symptomresult=symptoms, user_data=form_data)
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+@app.route("/faqs")
+def faqs():
+    return render_template("faqs.html")
+
 app.run(debug=True)
